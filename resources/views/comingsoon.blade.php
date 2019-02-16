@@ -38,7 +38,7 @@
 				{{--<a href="#"><img src="/resources/images/icons/logo.png" alt="LOGO"></a>--}}
 			</div>
 
-			<div class="flex-w cd100 p-t-15 p-b-15 p-r-36">
+			{{--<div class="flex-w cd100 p-t-15 p-b-15 p-r-36">
 				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
 					<span class="l1-txt1 wsize1 days">35</span>
 					<span class="m1-txt1 p-b-2">Days</span>
@@ -58,7 +58,7 @@
 					<span class="l1-txt1 wsize1 seconds">39</span>
 					<span class="m1-txt1 p-b-2">Sec</span>
 				</div>
-			</div>
+			</div>--}}
 
 			<div class="m-t-10 m-b-10">
 				<a href="#" class="size2 s1-txt1 flex-c-m how-btn1 trans-04">
@@ -98,7 +98,7 @@
 				</a>
 			</div>
 
-			<form class="contact100-form validate-form m-t-10 m-b-10">
+		{{--	<form class="contact100-form validate-form m-t-10 m-b-10">
 				<div class="wrap-input100 validate-input m-lr-auto-lg" data-validate = "Email is required: ex@abc.xyz">
 					<input class="s2-txt1 placeholder0 input100 trans-04" type="text" name="email" placeholder="Email Address">
 
@@ -106,7 +106,7 @@
 						<i class="zmdi zmdi-long-arrow-right fs-16 cl1 trans-04"></i>
 					</button>
 				</div>		
-			</form>
+			</form>--}}
 		</div>
 	</div>
 

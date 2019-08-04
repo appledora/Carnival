@@ -38,32 +38,9 @@
 				{{--<a href="#"><img src="/resources/images/icons/logo.png" alt="LOGO"></a>--}}
 			</div>
 
-			{{--<div class="flex-w cd100 p-t-15 p-b-15 p-r-36">
-				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
-					<span class="l1-txt1 wsize1 days">35</span>
-					<span class="m1-txt1 p-b-2">Days</span>
-				</div>
-
-				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
-					<span class="l1-txt1 wsize1 hours">17</span>
-					<span class="m1-txt1 p-b-2">Hr</span>
-				</div>
-
-				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
-					<span class="l1-txt1 wsize1 minutes">50</span>
-					<span class="m1-txt1 p-b-2">Min</span>
-				</div>
-
-				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
-					<span class="l1-txt1 wsize1 seconds">39</span>
-					<span class="m1-txt1 p-b-2">Sec</span>
-				</div>
-			</div>--}}
 
 			<div class="m-t-10 m-b-10">
-				<a href="#" class="size2 s1-txt1 flex-c-m how-btn1 trans-04">
-					Sign Up
-				</a>
+
 			</div>
 		</div>
 
@@ -73,12 +50,14 @@
 				SUST Tech Fest 2019
 			</h3>
 			<p class="l1-txt1 txt-left p-b-28 respon1">
-				Coming Soon
+				The event has ended.
 			</p>
+			<p class="l1-txt1 txt-left p-b-28 respon1">
+				Check back with us later for new events!
+			</p>
+
 			<div>
-				<button class="how-btn-play1 flex-c-m">
-					<i class="zmdi zmdi-play"></i>
-				</button>
+
 			</div>
 		</div>
 		
@@ -126,21 +105,6 @@
 	<script src="{{asset("vendor/countdowntime/moment-timezone.min.js")}}"></script>
 	<script src="{{asset("vendor/countdowntime/moment-timezone-with-data.min.js") }}"></script>
 	<script src="{{asset("vendor/countdowntime/countdowntime.js") }}"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 19,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
 <!--===============================================================================================-->
 	<script src="vendor/tilt/tilt.jquery.min.js"></script>
 	<script >
